@@ -27,7 +27,7 @@ public class Operators extends Users implements Calculations{
 		}
 		
 		//calculation
-		double revenue = avg * noOfDownloads;
+		double revenue = (avg * noOfDownloads) / 5;
 		
 		System.out.println("Artist : "+obj.name);
 		System.out.println("Album Revenue is LKR "+revenue);
